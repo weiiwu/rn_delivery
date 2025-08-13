@@ -1,6 +1,6 @@
 import CustomButton from '@/components/CustomButton'
 import CustomInput from '@/components/CustomInput'
-import { createUser } from '@/constants/lib/appwrite'
+import { createUser } from '@/lib/appwrite'
 import { Link, router } from 'expo-router'
 import { useState } from 'react'
 import { Alert, Text, View } from 'react-native'
